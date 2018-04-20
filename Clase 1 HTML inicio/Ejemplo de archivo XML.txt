@@ -1,0 +1,12 @@
+<Aula>
+  <persona nombre="Juan"> //Atributo dentro de los simbolos menor y mayor
+    <banco> </banco>
+  </persona>
+  <persona nombre="Diego">
+
+  </persona>
+  <persona nombre="Pablo">
+
+  </persona>
+
+</aula>

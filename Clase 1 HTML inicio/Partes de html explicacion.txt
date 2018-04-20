@@ -1,0 +1,5 @@
+Para los encabezados se utiliza el tag <header> //Pueden utilzarce mas de una vez cada tag.
+para menu o cualquier navegador dentro de la pagina se utiliza <nav>
+para el contenido se usa <section>
+para el lateral se utiliza <aside>
+para el pie de pagina se usa el <footer>

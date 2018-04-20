@@ -1,0 +1,8 @@
+<strong> //Etiqueta - Negrita
+  <h1> //Etiqueta - Titutlo
+    Hola Mundo!!  //Contenido
+  </h1>
+  <h2>
+    Juan
+  </h2>
+</strong>

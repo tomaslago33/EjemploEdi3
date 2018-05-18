@@ -25,3 +25,15 @@ article header h1{
 article.borde h1 {
   border: 2px solid orange; /*si o si en ese orden*/
 }
+div[name = "nombredeldiv"] {    /*que tenga ese nombre*/
+
+}
+div[name ^= "nombredeldiv"] {   /*que empiece el nombre en eso*/
+  
+}
+div[name $= "nombredeldiv"] {   /*que termine el nombre en eso*/
+
+}
+div[name *= "nombredeldiv"] {   /*que contenga eso en el nombre*/
+
+}

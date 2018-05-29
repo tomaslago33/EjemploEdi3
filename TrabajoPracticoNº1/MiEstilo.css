@@ -1,0 +1,127 @@
+.contenedor {
+  width: 1000px;
+  margin: 0px auto;
+  border: 1px solid black;
+  /*background: #3F51B5;*/
+}
+header {
+  text-align: center;
+  background: ;
+}
+h1 {
+  display: inline-block;
+}
+input[type="text"] {
+  display: block;
+  margin: 1em auto 1em auto;
+  padding: 0.5em 1em;
+}
+footer {
+  text-align: center;
+}
+.inline-block {
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: top;
+}
+.mainSection {
+  width: 69%;
+  border: 0px;
+}
+.mainAside {
+  width: 30%;
+}
+.mainArticle{
+  width: 32%;
+  border: 1px solid black;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1px;
+}
+.mainMenu{
+  border: 1px solid black;
+  list-style:none;
+  box-sizing: border-box;
+}
+.mainMenu li{
+  display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mainPublicacion header{
+  text-align: left;
+}
+.mainPublicacion header h3{
+ display: inline-block;
+}
+.titleIcon{
+  float: right;
+  margin: 0.5em 0.5em 0 0;
+}
+.mainPublicacion  {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+.hastag, .likes{
+ position: absolute;
+ left: 0;
+}
+
+.mainImagenPubli{
+  display: block;
+  height: 2em;
+  position: relative;
+  margin-top: 1em;
+}
+.mainImagenPubli .favBlock{
+ /* float: right;
+  margin-right: 1em; */
+  position: absolute;
+  right: 1em;
+  width: 60px;
+  text-align: right;
+}
+.mainImagenPubli .tagBlock{
+  position: absolute;
+  left: 1em;
+  width: 50%;
+  text-align: left;
+}
+.tags{
+  margin-left: 2em;
+
+}
+
+img {
+  display: inline-block;
+  width: 20px;
+}
+.mainSectionPubli{
+  border: 1px solid black;
+  padding: 50px;
+  margin:5px;
+}
+.mainImagenMensaje{
+  display: inline-block;
+}
+.mainImagenMensaje .hastag{
+   position: absolute;
+  left: 1em;
+  width: 20px;
+  text-align: left;
+}
+#enviar{
+  display: inline-block;
+  margin:1px;
+  width: 500px;
+}
+#etiquetaGrande{
+  width: 70px;
+  margin: 5px;
+
+}
+
+
+

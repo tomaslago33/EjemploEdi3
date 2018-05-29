@@ -2,30 +2,19 @@
   width: 1000px;
   margin: 0px auto;
   border: 1px solid black;
-<<<<<<< HEAD
-}
-header {
-  text-align: center;
-  background:
-=======
   /*background: #3F51B5;*/
 }
 header {
   text-align: center;
   background: ;
->>>>>>> origin/master
 }
 h1 {
   display: inline-block;
 }
 input[type="text"] {
   display: block;
-<<<<<<< HEAD
-  margin: auto;
-=======
   margin: 1em auto 1em auto;
   padding: 0.5em 1em;
->>>>>>> origin/master
 }
 footer {
   text-align: center;
@@ -37,10 +26,7 @@ footer {
 }
 .mainSection {
   width: 69%;
-<<<<<<< HEAD
-=======
   border: 0px;
->>>>>>> origin/master
 }
 .mainAside {
   width: 30%;
@@ -52,19 +38,6 @@ footer {
   box-sizing: border-box;
   margin: 1px;
 }
-<<<<<<< HEAD
-nav {
-  display: ;
-}
-.mainMenu{
-
-}
-li{
-
-*{
-  background-color: 999999;
-}
-=======
 .mainMenu{
   border: 1px solid black;
   list-style:none;
@@ -152,4 +125,3 @@ img {
 
 
 
->>>>>>> origin/master

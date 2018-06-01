@@ -1,21 +1,43 @@
 .contenedor {
   width: 1000px;
-  margin: 0px auto;
+  margin: 20px auto; 
+  padding: 20px;
   border: 1px solid black;
-  /*background: #3F51B5;*/
+  background: #3F51B5;
+  font-family: sans-serif;
+
+}
+input[type="button"]{
+  background: #FF9800;
+  color: #FFFFFF;
+  border-style: none;
+  font-size: 14px;
 }
 header {
   text-align: center;
-  background: ;
+ 
 }
 h1 {
   display: inline-block;
+  color: #FFFFFF;
+  font-weight: bold;
 }
 input[type="text"] {
   display: block;
-  margin: 1em auto 1em auto;
-  padding: 0.5em 1em;
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 16px;
+  color: #212121;
 }
+input[type="checkbox"]{
+    margin: 10px auto;
+  padding: 5px;
+}
+span.mainFooterRegis{
+  font-size: 16px;
+  color: #C5CAE9;
+}
+
 footer {
   text-align: center;
 }
@@ -27,10 +49,21 @@ footer {
 .mainSection {
   width: 69%;
   border: 0px;
+  background: #c5cae9;
 }
 .mainAside {
-  width: 30%;
+  width: 25%;
+  background: #c5cae9;
+  padding: 10px;
 }
+.mainAside h3, .mainAside h4{
+  text-align: left;
+}
+.mainAside h3{
+  border-bottom: 1px solid #212121;
+  font-size: 20px;
+}
+
 .mainArticle{
   width: 32%;
   border: 1px solid black;
@@ -42,11 +75,16 @@ footer {
   border: 1px solid black;
   list-style:none;
   box-sizing: border-box;
+  background: #303F9F;
+  padding: 0px;
 }
 .mainMenu li{
   display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+li{
+  list-style: none;
 }
 .mainPublicacion header{
   text-align: left;
@@ -97,6 +135,7 @@ footer {
 img {
   display: inline-block;
   width: 20px;
+
 }
 .mainSectionPubli{
   border: 1px solid black;

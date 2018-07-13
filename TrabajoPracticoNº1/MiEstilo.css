@@ -1,11 +1,16 @@
+@font-face{
+  font-family: MiFuente;
+  src: url(font/MiFuente.ttf);
+}
 .contenedor {
   width: 1000px;
   margin: 20px auto; 
   padding: 20px;
-  border: 1px solid black;
+  
   background: #3F51B5;
-  font-family: sans-serif;
-
+}
+*{
+  font-family: MiFuente;
 }
 input[type="button"]{
   background: #FF9800;
@@ -47,14 +52,16 @@ footer {
   vertical-align: top;
 }
 .mainSection {
-  width: 69%;
-  border: 0px;
-  background: #c5cae9;
+  border-style: none;
+  width: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .mainAside {
   width: 25%;
   background: #c5cae9;
   padding: 10px;
+  border-style: none;
 }
 .mainAside h3, .mainAside h4{
   text-align: left;
@@ -63,17 +70,53 @@ footer {
   border-bottom: 1px solid #212121;
   font-size: 20px;
 }
+.mainAside li{
+  font-size: 18px;
+  margin: 5px 10px;
+}
+.mainAside ul{
+  padding: 0px;
+}
 
-.mainArticle{
+article.mainArticle{
   width: 32%;
   border: 1px solid black;
+  margin: 0 0 5px 0;
+  padding: 15px;
   display: inline-block;
   box-sizing: border-box;
-  margin: 1px;
+  background: #C5CAE9; 
+}
+article.mainArticle header{
+  background: #757575;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+.mainSegui ul{
+  text-align: left;
+  background: #FFFFFF;
+  margin: auto;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.mainSegui h4{
+  margin-top: 0px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+article header h3{
+  display: inline-block;
+  font-size: 20px;
+}
+article{
+  background: #C5CAE9;
+  margin: 20px;
+  padding: 15px;
 }
 .mainMenu{
-  border: 1px solid black;
-  list-style:none;
+  
   box-sizing: border-box;
   background: #303F9F;
   padding: 0px;
@@ -82,12 +125,22 @@ footer {
   display: inline-block;
     margin: 10px 5px;
     font-size: 20px;
+    color: #FFFFFF;
+
+}
+.mainMenu li a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 li{
   list-style: none;
 }
 .mainPublicacion header{
   text-align: left;
+  background: #757575;
+  padding-left:10px;
+  padding-right: 10px;
+  color: #FFFFFF;
 }
 .mainPublicacion header h3{
  display: inline-block;
@@ -95,16 +148,18 @@ li{
 .titleIcon{
   float: right;
   margin: 0.5em 0.5em 0 0;
+  color: #FFFFFF;
+ background: #FF9800;
 }
 .mainPublicacion  {
-  border: 1px solid black;
-  margin: 5px;
+  margin: 0 0 5px 0;
 }
 
 
 .hastag, .likes{
  position: absolute;
  left: 0;
+
 }
 
 .mainImagenPubli{
@@ -129,18 +184,20 @@ li{
 }
 .tags{
   margin-left: 2em;
-
 }
-
 img {
   display: inline-block;
   width: 20px;
-
 }
 .mainSectionPubli{
-  border: 1px solid black;
-  padding: 50px;
-  margin:5px;
+  padding: 15px;
+  font-size: 16px;
+  color: #212121;
+  background: #FFFFFF;
+}
+.mainSectionPubli p{
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 .mainImagenMensaje{
   display: inline-block;
@@ -151,15 +208,31 @@ img {
   width: 20px;
   text-align: left;
 }
+#mensajeNuevo{
+  margin: auto;
+  display: block;
+  width: 95%;
+  min-width: 95%; 
+  height: 7em;
+  max-height: 7em;
+  max-width: 95%;
+  padding: 15px;
+  font-size: 16px;
+  background: #FFFFFF;
+  color: #212121;
+}
 #enviar{
   display: inline-block;
-  margin:1px;
-  width: 500px;
+  text-align: left;
+  /*margin:1px;
+  width: 500px;*/
 }
 #etiquetaGrande{
-  width: 70px;
+  font-size: 25px;
   margin: 5px;
-
+}
+.hastags{
+  margin-left: 15px;
 }
 
 

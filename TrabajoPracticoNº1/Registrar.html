@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="MiEstilo.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<title>Registrarse</title>
+  <script type="text/javascript" src="registrarJS.js">
+    
+  </script>
 </head>
 <body>
 	<div class="contenedor">
@@ -14,18 +17,21 @@
         <h1> microEDI </h1>
       </header>
         <section>
-
-          <input type="text" placeholder="Usuario"> </input>
-         
-          <input type="text" placeholder="Email"> </input>
-          
-          <input type="text" placeholder="Clave"> </input>
-         
-          <footer  >
-            <span class="mainFooterRegis"><input type="checkbox" class="mainCheckbox"> Acepto terminos de uso </input></span> 
-        	<br>
-            <input type="button" value="Registrar">
+          <form action="Login.html">
+            <input type="text" placeholder="Usuario"> </input>
+           
+            <input type="email" placeholder="Email"> </input>
+            
+            <input type="password" placeholder="Clave"> </input>
+           
+            <input type="password" placeholder="Confirmar Clave"> </input>
+            <footer  >
+              <span class="mainFooterRegis"><input type="checkbox" class="mainCheckbox"> Acepto terminos de uso </input></span> 
+          	<br>
+              <input type="submit" value="Registrar">
+            </form>
           </footer>
+          <div id="error"></div>
         </section>
     </div>
 </body>

@@ -12,7 +12,7 @@
 *{
   font-family: MiFuente;
 }
-input[type="button"]{
+input[type="button"], input[type="submit"]{
   background: #FF9800;
   color: #FFFFFF;
   border-style: none;
@@ -27,7 +27,7 @@ h1 {
   color: #FFFFFF;
   font-weight: bold;
 }
-input[type="text"] {
+input[type="text"],input[type="password"], input[type="email"] {
   display: block;
   margin: 10px auto;
   padding: 5px;
@@ -235,6 +235,12 @@ img {
 .hastags{
   margin-left: 15px;
 }
-
+#error{
+  margin: 5px auto;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  text-align: center;
+}
 
 

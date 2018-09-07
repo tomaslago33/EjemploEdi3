@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="MiEstilo.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<title>Opciones</title>
+  <script type="text/javascript" src="opcionesJS.js" ></script>
 </head>
 <body>
 	<div class="contenedor">
@@ -26,13 +27,18 @@
 
           <input type="text" placeholder="Usuario"> </input>
         
-          <input type="text" placeholder="Email"> </input>
+          <input type="email" placeholder="Email"> </input>
        
-          <input type="text" placeholder="Clave"> </input>
+          <input type="password" placeholder="Clave"> </input>
+
+          <input type="password" placeholder="Confirmar Clave"> </input>
           
           <footer>
             <input type="button" value="Guardar">
           </footer>
+            <div id="error">
+            
+          </div>
         </section>
     </div>
 </body>

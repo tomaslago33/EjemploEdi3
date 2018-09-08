@@ -17,11 +17,16 @@ function validarTexto(event){
 	}
 	for (var i = 0; i < etiqueta.length; i++) {
 		if (etiqueta[i] == " " || etiqueta.length >50){
-			vacio.innerHTML += "<p>La etiqueta no puede contener espacio en blanco o no debe superar los 50 caracteres</p>";
+			cont=2;
 		}
 	}
+	if (cont == 2){
+		vacio.innerHTML += "<p>La etiqueta no puede contener espacio en blanco o no debe superar los 50 caracteres</p>";
+		cont = 1;
+	}
 	if (texto == ""){
-		vacio.innerHTML += "<p>Debe ingresarse un texto</p>"
+		vacio.innerHTML += "<p>Debe ingresarse un texto</p>";
+		cont = 1;
 	}
 	if (cont == 1){
 		event.preventDefault();

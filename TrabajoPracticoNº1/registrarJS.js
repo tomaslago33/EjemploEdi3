@@ -23,9 +23,12 @@ function validarUsuarioYContraseña(event){
 	vacio.innerHTML = "";
 	for (var i=0; i<user.length; i++){
 		if (user[i]==" "){
-			vacio.innerHTML += "<p> El usuario no puede contener espacio en blanco</p>";
-			cont=1;
+			cont=2;
 		}
+	}
+	if (cont == 2){
+		vacio.innerHTML += "<p> El usuario no puede contener espacio en blanco</p>";
+		cont = 1;
 	}
 	if (user == "" || pass[0].value == "" || pass[1].value == "" || mail ==""){
 		vacio.innerHTML += "<p>Los campos no pueden ser vacios</p>";

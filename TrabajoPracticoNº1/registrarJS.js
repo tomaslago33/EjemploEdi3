@@ -26,34 +26,39 @@ function validarUsuarioYContraseña(event){
 			cont=2;
 		}
 	}
-	if (cont == 2){
-		vacio.innerHTML += "<p> El usuario no puede contener espacio en blanco</p>";
-		cont = 1;
-	}
 	if (user == "" || pass[0].value == "" || pass[1].value == "" || mail ==""){
-		vacio.innerHTML += "<p>Los campos no pueden ser vacios</p>";
-		cont=1;
-	}
-	if (pass[0].value.indexOf(user) >-1){
-		vacio.innerHTML += "<p>El usuario no puede formar parte de la contraseña</p>";
-		cont=1;
+			vacio.innerHTML += "<p>Los campos no pueden ser vacios</p>";
+			cont=1;
 	}
 	
-	if (resultado != true){
-		vacio.innerHTML += "<p>La clave debe tener como minimo de 6 caracteres, una mayuscula y una minuscula</p>";
-		cont=1;
+	else {
+		if (cont == 2){
+		vacio.innerHTML += "<p> El usuario no puede contener espacio en blanco</p>";
+		event.preventDefault();
+		cont = 1;
 		}
-	if (pass[0].value != pass[1].value){
-		vacio.innerHTML += "<p>Los campos Clave y Confirmar Clave son distintos. Para registrarse los campos tiene que tener el mismo valor</p>";
-		cont=1;
-	}
-	if (resultadoE != true){
-		vacio.innerHTML += "<p>El e-mail ingresado es invalido</p>";
-		cont=1;
-	}
-	if (check.checked == false){
-		vacio.innerHTML += "<p>Los terminos de uso deben ser aceptados</p>";
-		cont=1;
+		
+		if (pass[0].value.indexOf(user) >-1){
+			vacio.innerHTML += "<p>El usuario no puede formar parte de la contraseña</p>";
+			cont=1;
+		}
+		
+		if (resultado != true){
+			vacio.innerHTML += "<p>La clave debe tener como minimo de 6 caracteres, una mayuscula y una minuscula</p>";
+			cont=1;
+			}
+		if (pass[0].value != pass[1].value){
+			vacio.innerHTML += "<p>Los campos Clave y Confirmar Clave son distintos. Para registrarse los campos tiene que tener el mismo valor</p>";
+			cont=1;
+		}
+		if (resultadoE != true){
+			vacio.innerHTML += "<p>El e-mail ingresado es invalido</p>";
+			cont=1;
+		}
+		if (check.checked == false){
+			vacio.innerHTML += "<p>Los terminos de uso deben ser aceptados</p>";
+			cont=1;
+		}
 	}
 	if (cont == 1) {
 		event.preventDefault();
